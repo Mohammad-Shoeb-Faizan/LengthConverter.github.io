@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Length Converter</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Length Converter</h1>
+    <div class="input-group">
+      <input type="number" id="inputValue" placeholder="Enter value">
+      <select id="inputUnit">
+        <option value="mm">Millimeter (mm)</option>
+        <option value="cm">Centimeter (cm)</option>
+        <option value="dm">Decimeter (dm)</option>
+        <option value="m">Meter (m)</option>
+        <option value="km">Kilometer (km)</option>
+        <option value="ft">Foot (ft)</option>
+        <option value="in">Inch (in)</option>
+        <option value="mi">Mile (mi)</option>
+        <option value="yd">Yard (yd)</option>
+      </select>
+    </div>
+    <div class="input-group">
+      <input type="number" id="outputValue" placeholder="Result" disabled>
+      <select id="outputUnit">
+        <option value="mm">Millimeter (mm)</option>
+        <option value="cm">Centimeter (cm)</option>
+        <option value="dm">Decimeter (dm)</option>
+        <option value="m">Meter (m)</option>
+        <option value="km">Kilometer (km)</option>
+        <option value="ft">Foot (ft)</option>
+        <option value="in">Inch (in)</option>
+        <option value="mi">Mile (mi)</option>
+        <option value="yd">Yard (yd)</option>
+      </select>
+    </div>
+    <button onclick="convert()">Convert</button>
+    <button onclick="clearFields()" style="background-color: red;">Clear Fields</button>
+    <div id="aboutUs">
+        <h2>About Us</h2>
+        <p>Welcome to the Length Converter! This project is a web-based application designed to help you convert lengths between different measurement units quickly and easily. Whether you need to convert millimeters, centimeters, decimeters, meters, kilometers, feet, inches, miles, or yards, our length converter has got you covered.</p>
+        <p>Simply enter the value you want to convert, select the input unit and output unit, and click the "Convert" button. The result will be displayed in the output field. You can also use the "Clear Fields" button to reset the input and output fields.</p>
+        <p>We hope you find this length converter helpful for your daily life or work. If you have any feedback or suggestions, please feel free to reach out to us. Happy converting!</p>
+      </div>
+      
+
+  <script src="script.js"></script>
+</body>
+</html>
