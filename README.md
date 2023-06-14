@@ -16,7 +16,7 @@ A web-based length converter application that allows users to convert lengths be
 - JavaScript
 
 ## Demo
-See the application in action! [https://mohammad-shoeb-faizan.github.io/LengthConverter.github.io/]
+See the application in action! https://mohammad-shoeb-faizan.github.io/LengthConverter.github.io/
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
@@ -48,4 +48,5 @@ For any inquiries or further information, please reach out to:
 Mohammad Shoeb Faizan
 
 LinkedIn: https://www.linkedin.com/in/mohammad-shoeb-faizan-5787a0271/
+
 Email: shoebfaizan71@gmail.com
