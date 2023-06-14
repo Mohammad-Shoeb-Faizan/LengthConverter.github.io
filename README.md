@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/length-converter.git
+   git clone https://github.com/Mohammad-Shoeb-Faizan/LengthConverter.github.io.git
    ```
    
 2. Open the project directory:
